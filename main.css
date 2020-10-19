@@ -1,0 +1,197 @@
+body {
+    font-size: 67.5%;
+    font-family: "Ariel", Ariel, sans-serif;
+    background: #ffffff url(img/indianapolis.jpg) no-repeat top left;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    padding: 0 3.0em;
+}
+
+nav {
+    color: #000;
+    background-color: rgb(57, 126, 126);
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 0.5em 1.0em 0.5em;
+    float: right;
+    min-width: 35em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(252, 252, 252, 0.75);
+}
+
+#title{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 4em;
+    color: blue;
+    max-width: 100%;
+}
+
+#banner{
+    max-width: 100%;
+    min-width: 180em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.mainInfoWrapper{
+    position: relative;
+    max-width: 100%;
+    min-width: 180em;
+    min-height: 65.5em;
+    padding: 2em;
+    margin-bottom: 5em;
+    background-color: white;
+}
+
+.wellCounts{
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+}
+
+.fillCount{
+    font-size: 1.5em;
+}
+
+#sidebar1{
+    width: 45em;
+    height: 65.5em;
+    display: inline-block;
+    position: absolute;
+    background: rgb(165, 112, 42) url(img/Single_person_running.jpg) no-repeat top left;
+    background-size: 45em 65.5em;
+    color: white;
+    text-align: left;
+    top: 2em;
+    left: 2em;
+}
+
+
+#fillBar1{
+    height: 16.2em;
+    width: 5em;
+    z-index: 2;
+    background:blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+
+.mainText{
+    height: 65.5em;
+    width: 80em;
+    z-index: 3;
+    background: white;
+    margin: auto;
+    text-align: center;
+    color: blue;
+    padding: 1em;
+}
+
+.mainTitle{
+    font-size: 4em;
+    padding: 0;
+}
+
+.mainAbout{
+    font-size: 2.5em;
+}
+
+#registerNow{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+}
+
+#sidebar2{
+    width: 45em;
+    height: 65.5em;
+    display: inline-block;
+    position: absolute;
+    background: rgb(165, 112, 42) url(img/Team_Running2.jpg) no-repeat top right;
+    background-size: 45em 65.5em;
+    color: white;
+    text-align: right;
+    top: 2em;
+    right: 2em;
+}
+
+#fillBar2{
+    height: 32.4em;
+    width: 5em;
+    z-index: 2;
+    background:blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: #40362f;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+    max-width: 100%;
+    min-width: 150em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
